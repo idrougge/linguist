@@ -1,5 +1,7 @@
 # Linguist
 
+foobar
+
 [![Actions Status](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/badge/github/linguist)](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/results/github/linguist)
 
 [issues]: https://github.com/github/linguist/issues
