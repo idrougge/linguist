@@ -53,6 +53,18 @@
   tm_scope: source.4dm
   ace_mode: text
   language_id: 577529595
+8051 Assembly:
+  type: programming
+  group: Assembly
+  aliases:
+  - a51
+  - 8051
+  extensions:
+  - ".a51"
+  - ".asm"
+  - ".inc"
+  tm_scope: none
+  ace_mode: text
 ABAP:
   type: programming
   color: "#E8274B"
@@ -2998,6 +3010,15 @@ MQL5:
   tm_scope: source.mql5
   ace_mode: c_cpp
   language_id: 427
+MSP430 Assembly:
+  type: programming
+  aliases:
+  - msp430
+  extensions:
+  - ".s"
+  - ".inc"
+  tm_scope: source.msp430x
+  ace_mode: text
 MTML:
   type: markup
   color: "#b7e1f4"
@@ -3291,6 +3312,17 @@ Motorola 68K Assembly:
   tm_scope: source.m68k
   ace_mode: assembly_x86
   language_id: 477582706
+MSP430 Assembly:
+  type: programming
+  group: Assembly
+  aliases:
+  - msp430
+  extensions:
+  - ".s"
+  - ".inc"
+  tm_scope: source.msp430x
+  ace_mode: text
+  language_id: 430
 Muse:
   type: prose
   extensions:
