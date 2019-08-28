@@ -337,15 +337,14 @@ Assembly:
   color: "#6E4C13"
   aliases:
   - asm
-  - nasm
   extensions:
   - ".asm"
   - ".a51"
   - ".i"
   - ".inc"
-  - ".nasm"
-  tm_scope: source.assembly
-  ace_mode: assembly_x86
+  - ".s"
+  tm_scope: none
+  ace_mode: text
   language_id: 24
 Asymptote:
   type: programming
@@ -6406,6 +6405,18 @@ wisp:
   - ".wisp"
   tm_scope: source.clojure
   language_id: 420
+x86 Assembly:
+  type: programming
+  group: Assembly
+  aliases:
+  - nasm
+  - x86
+  extensions:
+  - ".asm"
+  - ".inc"
+  - ".nasm"
+  tm_scope: source.assembly
+  ace_mode: assembly_x86
 xBase:
   type: programming
   color: "#403a40"
