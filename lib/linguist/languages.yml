@@ -46,6 +46,18 @@
   tm_scope: source.bsl
   ace_mode: text
   language_id: 0
+6502 Assembly:
+  type: programming
+  aliases:
+  - "6502"
+  extensions:
+  - ".a"
+  - ".as"
+  - ".asm"
+  - ".inc"
+  - ".s"
+  tm_scope: none
+  ace_mode: text
 4D:
   type: programming
   extensions:
