@@ -67,10 +67,9 @@
   language_id: 577529595
 8051 Assembly:
   type: programming
-  group: Assembly
   aliases:
   - a51
-  - 8051
+  - "8051"
   extensions:
   - ".a51"
   - ".asm"
@@ -356,20 +355,6 @@ AspectJ:
   tm_scope: source.aspectj
   ace_mode: text
   language_id: 23
-Assembly:
-  type: programming
-  color: "#6E4C13"
-  aliases:
-  - asm
-  extensions:
-  - ".asm"
-  - ".a51"
-  - ".i"
-  - ".inc"
-  - ".s"
-  tm_scope: none
-  ace_mode: text
-  language_id: 24
 Asymptote:
   type: programming
   color: "#4a0c0c"
@@ -3312,7 +3297,6 @@ MoonScript:
   language_id: 238
 Motorola 68K Assembly:
   type: programming
-  group: Assembly
   aliases:
   - m68k
   extensions:
@@ -5608,7 +5592,7 @@ Unity3D Asset:
   language_id: 380
 Unix x86 Assembly:
   type: programming
-  group: Assembly
+  group: x86 Assembly
   extensions:
   - ".s"
   - ".ms"
@@ -6451,7 +6435,6 @@ wisp:
   language_id: 420
 x86 Assembly:
   type: programming
-  group: Assembly
   aliases:
   - nasm
   - x86
