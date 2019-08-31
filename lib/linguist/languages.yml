@@ -310,7 +310,6 @@ Apex:
   language_id: 17
 Apollo Guidance Computer:
   type: programming
-  group: Assembly
   extensions:
   - ".agc"
   tm_scope: source.agc
